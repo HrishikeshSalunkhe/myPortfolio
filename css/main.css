@@ -1,0 +1,330 @@
+/*HTML and CSS created by Vladislav Polak A.K.A. Tahoe Rock*/
+/*html elements */
+body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+}
+
+h1, h2, h3 {
+font-weight: 100;
+line-height: 40px;
+letter-spacing: 2px;
+}
+
+p {
+font-size: 18px;
+font-weight: 200;
+line-height: 24px;
+letter-spacing: 1px;
+border: 2px solid #feeeee;
+padding: 20px;
+border-radius: 6px;  
+}
+
+hr {
+color: red!important;
+margin: 0px!important;
+border-top: 1px solid #dddddf!important;
+}
+/*html elements END*/
+
+/*Bootstrap Classes*/
+.margin {
+margin-bottom: 45px;
+
+}
+
+.col-sm-4 {
+margin-bottom: 20px;
+}
+
+.form-group {
+max-width: 800px;
+}
+
+#text-input {
+height: 150px;
+}
+/*Bootstrap Classes END */
+
+/*bg colors set*/
+
+.bg-1 {
+background-color: #1abc9c; /* Green */
+color: #ffffff;
+}
+.bg-2 {
+background-color: #FAFAFA; /* Grey*/
+color: #555555;
+}
+.bg-3 {
+background-color: #ffffff; /* White */
+color: #555555;
+}
+.bg-4 {
+background-color: #2f2f2f; /* Black Gray */
+color: #fff;
+}
+
+.bg-5 {
+background-color: #000d1a; /* Black Gray Dark */
+  opacity: 0.9;
+color: #1E90FF;
+}
+/*bg colors set END*/
+
+
+/* NavBar */
+/*NavBar Colors*/
+/* Default background  Active background  Default color  Active color - TWBSColor - http://work.smarchal.com/twbscolor/   */
+.navbar-default {
+background-color: #33333a;
+border-color: #44444a;
+}
+.navbar-default .navbar-brand {
+color: #1e90ff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+color: #cc1f64;
+}
+.navbar-default .navbar-text {
+color: #1e90ff;
+}
+.navbar-default .navbar-nav > li > a {
+color: #1e90ff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+color: #cc1f64;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+background-color: #33333a;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+color: #1e90ff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+color: #cc1f64;
+background-color: #44444a;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+background-color: #44444a;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+color: #cc1f64;
+background-color: #44444a;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+color: #cc1f64;
+background-color: #44444a;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+color: #cc1f64;
+background-color: #44444a;
+}
+.navbar-default .navbar-toggle {
+border-color: #44444a;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+background-color: #44444a;
+}
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #1e90ff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+border-color: #1e90ff;
+}
+.navbar-default .navbar-link {
+color: #1e90ff;
+}
+.navbar-default .navbar-link:hover {
+color: #cc1f64;
+}
+
+@media (max-width: 767px) {
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+color: #1e90ff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+color: #cc1f64;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+color: #cc1f64;
+background-color: #44444a;
+}
+}
+
+/* Default background  Active background  Default color  Active color  END */
+
+/* NavBar - Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+margin-bottom: 0!important;
+border-radius: 0;
+background-color: #33333A;
+opacity: 0.9;
+} 
+/* NavBar - Remove the navbar's default margin-bottom and rounded borders END */
+
+/* Sets background-color of the hamburger menu */
+.navbar-toggle .icon-bar {
+background-color: #DC143C;
+}
+
+/* Sets background-color of the hamburger menu END */
+
+/* Sets color of the menu items */
+nav.navbar.navbar-light.bg-faded.navbar-fixed-top a {
+color: #FFFFFF;
+}
+
+nav>li>a:focus, .nav>li>a:hover {
+background-color: #222222!important;
+}
+
+/* Sets color of the menu items END */
+
+/*NavBar End*/
+
+/*Buttons */
+
+.btn-default {
+color: #fff!important;
+background-color: #46464C!important;
+border-color: transparent!important;
+}
+
+/*Buttons End*/
+
+/*DIVs*/
+.seconddiv, .thirddiv, .fourthdiv, .fifthdiv {
+min-height: 400px;
+padding-top: 48px;
+padding-bottom: 48px;
+}
+/*DIVs END*/
+
+/*firts DIV*/
+.firstdiv.jumbotron {
+margin-top: 0px;
+margin-bottom: 0px!important;
+padding-bottom: 0px;
+}
+
+.jumbotron .container {
+max-width: 100%;
+background: transparent;
+color: white;
+padding-top: 150px;
+}
+
+/*first DIV background*/
+.intro-header { 
+text-align: center;
+background-size: cover;
+min-height: 755px;
+}
+
+.bg-overlay {
+background:rgba(0,0,0, 0.3);
+min-height: 755px;
+}
+
+/*first DIV background End*/
+/*first DIV END*/
+
+/*second DIV*/
+/***/
+#thirddiv{
+  background-color:white;
+  margin: 0px 70px;
+}
+
+.aboutme p{
+ border: none;  
+ font-size: 1.5em;  
+}
+/*second DIV END*/
+
+/*third DIV*/
+
+
+.thirddiv h3 {
+max-width: 960px;
+margin: 0px auto;
+font-weight: 100;
+line-height: 40px;
+letter-spacing: 2px;
+}
+/*third DIV END*/
+
+/*fourth DIV*/
+.fourthdiv img.img-responsive {
+border-radius: 10px;
+}
+#fourthdiv{
+  background-color: lightskyblue;
+}
+/*fourth DIV END*/
+
+/*fifth DIV */
+.fifthdiv .container-fluid {
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+background-color: transparent;
+color: #fff;
+}
+
+.fifthdiv-bg { 
+text-align: center;
+background: url('img/a.jpg') no-repeat center center fixed;
+background-size: cover;
+min-height: 755px;
+
+}
+
+.bg-overlay-fifthdiv {
+min-height: 755px;
+}
+
+.fifthdiv img.img-responsive {
+border-radius: 10px;
+
+}
+#fifthdiv{
+  background:rgba(13, 60, 85, 0.8);
+}
+
+
+/*Footer*/
+/* Add a gray background color and some padding to the footer */
+footer {
+background-color: #f2f2f9;
+padding: 25px;
+}
+
+
+/*Footer END*/ 
+
+/* Media Queries Start */
+@media (max-width: 768px){
+  .list-inline li{
+    margin: 20px;  
+  }
+}
+/*  Media Queries END*/
